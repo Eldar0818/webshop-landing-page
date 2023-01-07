@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Script -->
+    <script src="./utilities/app.js" defer></script>
+    <!-- Swiper Link Css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./utilities/styles/main.css">
+    <title>Webshop</title>
+</head>
+<body>
+    <!-- Topbar -->
+    <div class="topbar">
+        <p class="topbar-message">FREE SHIPPING ON ORDERS OVER 50$</p>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="wrapper-wide">
+
+            <div class="header-content">
+                <nav class="navigation header-item">
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">sale</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">contact</a>
+                        </li>
+                    </ul>
+        
+                </nav>
+                <div class="logo-bar header-item">
+                    <a href="#" class="logo-text">rafai</a>
+                </div>
+                <div class="interact header-item">
+
+                    <div class="searchbar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="panel-links">
+                        <a href="#" class="panel-link login-link">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <span>LogIn</span>
+                        </a>
+                        <a href="#" class="panel-link">
+                           <div class="bag">
+                            <div class="bag-head"></div>
+                            <div class="bag-body">
+                                <span>0</span>
+                            </div>
+                           </div>
+                        </a>
+                    </div>
+                    <i class="fa-solid fa-bars" id="menu-btn"></i>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Menu Card -->
+    <div class="menu-card" id="menu-card">
+
+        <div class="menu-card-wrapper">
+            <div class="menu-card-head">
+                <a href="#" class="menu-login">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span>LogIn</span>
+                </a>
+                <i class="fa-solid fa-circle-xmark" id="close-btn"></i>
+            </div>
+            <div class="menu-card-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="menu-nav">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">shop</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">story</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">blog</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">sale</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-wrapper">
+
+            <div class="hero-bg">
+                <div class="hero-bg-poster">
+                    <img src="./utilities/assets/hero.jpg" alt="hero">
+                </div>
+                <div class="hero-bg-empty"></div>
+            </div>
+            <div class="hero-body">
+                <div class="hero-body-empty"></div>
+                <div class="hero-body-content">
+                    <h5 class="hero-title-sm">HANDCRAFTED ORGANIC SOAPS & CANDLES</h5>
+                    <h1 class="hero-title-lg">JUST LIKE NATURE INTENDED</h1>
+                    <button class="shop-now-btn">Shop now</button>
+                    <img src="./utilities/assets/hero.jpg" alt="hero-content" class="hero-content-img">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+        <div class="about-wrapper">
+
+            <div class="about-heading">
+                <h1>SHOP OUR FAVORITES</h1>
+                <div class="sm-video">
+                    <video height="415px" autoplay loop muted>
+                        <source src="./utilities/assets/my-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="about-demo01">
+                <div class="about-demo01-left">
+                    <article>
+                        <h1 class="about-demo-title">NATURE’S ESSENCES CENTED CANDLES</h1>
+                        <p class="about-demo-text">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                        <button class="about-btn">Shop Candles</button>
+                    </article>
+                </div>
+                <div class="about-demo01-right">
+                    <div class="video-container">
+                        <video height="600px" autoplay loop muted>
+                            <source src="./utilities/assets/my-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-demo02">
+                <div class="about-demo02-left">
+
+                    <div class="demo-poster">
+                        <div class="demo-poster-bg">
+                            <div class="demo-poster-bg-color"></div>
+                        </div>
+                        <div class="demo-poster-img">
+                            <img src="/utilities/assets/demo-poster.jpg" alt="demo-poster">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="about-demo02-right">
+                    <article>
+                        <h1 class="about-demo-title">PROBIOTIC CLEANSING BARS</h1>
+                        <p class="about-demo-text">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                        <button class="about-btn">Shop Soaps</button>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Most Popular -->
+    <section class="popular">
+
+        <div class="popular-heading">
+            <h1>Most Popular</h1>
+        </div>
+        <div class="swiper mySwiper popular-products">
+
+                    <div class="swiper-wrapper carousel" id="carousel">
+
+                    <!--  <div class="swiper-slide product-item">
+                            <div class="product-view">
+                                <span class="sale-icon">Sale</span>
+                                <button class="view-modal-btn">Quick View</button>
+                                <img src="./utilities/assets/popular01.jpg" alt="popular">
+                            </div>
+                            <div class="product-item-content">
+                                <p class="product-name">pearl powder</p>
+                                <div class="prices">
+                                    <span class="price-old">$32.00</span>
+                                    <span class="price-new">$18.50</span>
+                                </div>
+                            </div>
+                        </div> -->
+
+                    </div>               
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+    </section>
+
+    <div class="modal-container" id="modal-container">
+        <div class="overlay" id="overlay">
+            <div class="modal" id="modal">
+
+                <!-- <div class="modal-media">
+                    <img src="./utilities/assets/popular01.jpg" alt="modal-poster">
+                </div>
+                <div class="modal-details">
+    
+                    <div class="modal-contents">
+                        <h2 class="modal-product-title">pearl powder</h2>
+                        <div class="modal-price">
+                            <span class="modal-price-old">$32.00</span>
+                            <span class="modal-price-new">$19.50</span>
+                        </div>
+                        <p class="in-stock">In Stock</p>
+                        <div class="quantity">
+                            <label for="quantity">quantity:</label>
+                            <input type="number" value="1">
+                        </div>
+                        <button class="add-card-btn">Add to card</button><br>
+                        <a href="#" class="modal-view-more">View more details</a>
+                    </div>
+                </div> -->
+    
+            </div>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <div class="intro-contents">
+            <h1 class="intro-heading">NATURALLY SIMPLE</h1>
+            <p class="intro-text">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+            <button class="intro-btn">Our Story</button>
+        </div>
+        <div class="intro-poster-box">
+            <div class="intro-poster"></div>
+            <div class="intro-base"></div>
+        </div>
+    </section>
+
+    <!-- Blogs -->
+    <section class="blogs">
+        <div class="blogs-heading">
+            <h1>THE RAFAI BLOG</h1>
+        </div>
+        <div class="blogs-container" id="blog-container">
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/2402326/pexels-photo-2402326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="blog-poster">
+                <h1>Re-Using Candles</h1>
+                <p>Blog text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, veritatis soluta odit quis cum deleniti.</p>
+            </div>
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/1809347/pexels-photo-1809347.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="blog-poster">
+                <h1>How To Pick The Right Scent</h1>
+                <p>Blog text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, veritatis soluta odit quis cum deleniti.</p>
+            </div>
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/714898/pexels-photo-714898.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="blog-poster">
+                <h1>5 Ways To Take Care Of Your Candles</h1>
+                <p>Blog text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, veritatis soluta odit quis cum deleniti.</p>
+            </div>
+        </div>
+
+        <div class="blog-btn-box">
+            <a href="#" class="read-more-btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-left">
+                <a href="#" class="footer-logo">RAFAI</a>
+            </div>
+            <div class="footer-right">
+                <div class="footer-items">
+
+                    <div class="footer-item">
+                        <h2 class="footer-item-titile">SHOP</h2>
+                        <a href="#">CANDLES</a>
+                        <a href="#">SOAPS</a>
+                        <a href="#">SALE</a>
+                    </div>
+                    <div class="footer-item">
+                        <h2 class="footer-item-titile">RAFAI</h2>
+                        <a href="#">STORY</a>
+                        <a href="#">CONTACT</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="footer-item">
+                        <h2 class="footer-item-titile">HELP</h2>
+                        <a href="#">TERMS & CONDITIONS</a>
+                        <a href="#">PRIVACY POLICY</a>
+                        <a href="#">SHIPPING & RETURNS</a>
+                    </div>
+                    <div class="footer-item">
+                        <h2 class="footer-item-titile">CONTACT INFO</h2>
+                        <span>072-840-3982</span>
+                        <span>rafi@contact.com</span>
+                        <div class="social-links">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copy-right">
+        <p>&copy; 2023 by Rafai, Powered and Secured by web dev Yalikun.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+</body>
+</html>
